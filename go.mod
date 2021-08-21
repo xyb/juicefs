@@ -52,6 +52,7 @@ require (
 	github.com/satori/uuid v1.2.0 // indirect
 	github.com/shirou/gopsutil v3.21.3+incompatible // indirect
 	github.com/sirupsen/logrus v1.7.0
+	github.com/syndtr/goleveldb v1.0.1-0.20190318030020-c3a204f8e965
 	github.com/tencentyun/cos-go-sdk-v5 v0.7.8
 	github.com/tikv/client-go/v2 v2.0.0-alpha.0.20210709052506-aadf3cf62721
 	github.com/tklauser/go-sysconf v0.3.6 // indirect
