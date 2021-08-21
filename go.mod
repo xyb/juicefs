@@ -34,6 +34,7 @@ require (
 	github.com/kr/fs v0.1.0 // indirect
 	github.com/ks3sdklib/aws-sdk-go v1.0.12
 	github.com/lib/pq v1.8.0
+	github.com/linxGnu/grocksdb v1.6.37
 	github.com/mattn/go-isatty v0.0.12
 	github.com/mattn/go-sqlite3 v2.0.1+incompatible
 	github.com/minio/cli v1.22.0

@@ -32,6 +32,9 @@ func newTkvClient(driver, addr string) (tkvClient, error) {
 	if driver == "memkv" {
 		return newMockClient()
 	}
+	if driver == "rocksdb" {
+		return newRocksdbClient(addr)
+	}
 	if driver != "tikv" {
 		return nil, fmt.Errorf("invalid driver %s != expected %s", driver, "tikv")
 	}
